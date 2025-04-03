@@ -1,7 +1,7 @@
 ##--------------------------- Command for making exe -------------------------------
 # pyinstaller --onefile --windowed --hidden-import=PyQt5  --hidden-import=docx  --hidden-import=docx2pdf --hidden-import=comtypes --add-data "logo.jpeg;."  Listapp.py
 ##----------------------------------------------------------------------------------
-
+ 
 import sys
 import os
 import platform
